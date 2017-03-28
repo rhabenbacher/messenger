@@ -10,7 +10,7 @@
 
 * Promise based API Implementation
 * Responsive UI
-* Handling of Android/iOs UI differences
+* Handling of Android/iOS UI differences
 * Refresh Control of messagelist
 * Infinity scrolling of messagelist
    
