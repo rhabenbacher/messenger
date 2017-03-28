@@ -3,7 +3,9 @@
 
 #### This app is built with react native.
 #### It lets the user display and add messages to the ServiceNow Feed
-
+   
+   
+   
 ## Technical Features
 
 * Promise based API Implementation
@@ -11,8 +13,8 @@
 * Handling of Android/iOs UI differences
 * Refresh Control of messagelist
 * Infinity scrolling of messagelist
-
-
+   
+    
 ## Requirements to run this app
 
 ### ServiceNow instance
@@ -20,7 +22,8 @@ You need a running ServiceNow instance. A personal developer instance can be obt
 
 ### src/config.js
 You have to edit this file before running the app.
-    
+
+```javascript
     #Enter the url of your server
     export const urlMessages = YourServer + '/api/now/table/live_message';
     
