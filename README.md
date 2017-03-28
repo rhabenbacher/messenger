@@ -1,9 +1,16 @@
 # messenger
-### ServiceNow feed messages in a native mobile app
+## ServiceNow feed messages in a native mobile app
 
+#### This app is built with react native.
+#### It lets the user display and add messages to the ServiceNow Feed
 
-This app is built with react native.
-It lets the user display and add messages to the ServiceNow Feed
+## Technical Features
+
+* Promise based API Implementation
+* Responsive UI
+* Handling of Android/iOs UI differences
+* Refresh Control of messagelist
+* Infinity scrolling of messagelist
 
 
 ## Requirements to run this app
