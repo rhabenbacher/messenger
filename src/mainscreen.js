@@ -2,13 +2,14 @@
 import React, { Component } from 'react';
 import {
   StyleSheet, Modal, ListView, RefreshControl,
-  Text, TextInput, ActivityIndicator, Dimensions,
+  Text, TextInput, ActivityIndicator, Dimensions,Image,
   View,Platform,ProgressBarAndroid
 } from 'react-native';
 
 import * as UI from './ui';
-import { Messages } from './data';
+import { Messages } from './data/data';
 import { AddComment } from './addcomment';
+import {ImageLazyLoad} from './imagelazyload';
 
 const LGRAY = '#EEEEEE';
 const LLGRAY = '#F5F5F5';
@@ -46,11 +47,12 @@ export class MainScreen extends Component {
   }
 
   _addComment(row) {
+    const {messages} = this.props.appState;
     console.log('AddComment');
     this.setState({
       row: row,
       modalVisible: true,
-      filteredMessages: LISTVIEW().cloneWithRows(this.props.stateGetter('messages').filter((line) => line.groupShort === row.groupShort))
+      filteredMessages: LISTVIEW().cloneWithRows(messages.filter((line) => line.groupShort === row.groupShort))
     });
   }
 
@@ -58,14 +60,27 @@ export class MainScreen extends Component {
     this.setState({ modalVisible: false, errorSaving: false });
   }
 
+  _renderImageRow(row) {
+     if (row.has_attachments.value){
+      return Messages.getAttachment(row.sys_id.value).then(uri => {
+        console.log('_renderImageRow');
+        console.log(uri);
+        return (<Image source={{uri:uri,width:100,height:100}}/>)
+      }) }
+      else {return null};
+  }
 
   _renderRow(row) {
+    const {loading,loadMore} = this.props.appState;
     const styleTopLevelName = {backgroundColor:row.color};
     let stylesvCard = {...this.state.stylesvCard};
     if (this.state.columns > 1) {  
       //console.log(getLinesCount(row.message.display_value,this._width));
-      stylesvCard.height = getLinesCount(row.message.display_value,this._width,this.state.columns) * 20 + 100;
+      stylesvCard.height = (row.has_attachments.value === 'true') ? 440:100;
+      stylesvCard.height+= getLinesCount(row.message.display_value,this._width,this.state.columns) * 20;
     }
+    let imageComp = (row.has_attachments.value === 'true') ? <ImageLazyLoad sys_id={row.sys_id.value}/>:null;
+    //console.log('renderRow');
 
     return (
       <View style={[styles.vCard,stylesvCard]}>
@@ -73,14 +88,16 @@ export class MainScreen extends Component {
           <Text style={[styles.topLevelName,styleTopLevelName]} >{row.topLevelName}</Text>
         </View>
         <Text style={ styles.groupShort } >{row.groupShort}</Text>
+        { imageComp }
         <UI.IconButton
-          disabled={this.props.stateGetter('loading') || this.props.stateGetter('loadMore')}
+          disabled={loading || loadMore}
           style={styles.bAdd}
           imageStyle={styles.bAddImage} iconName={'add'}
           onPress={() => this._addComment(row)} />
         <Text style={styles.created_by} >{row.sys_created_by.display_value} @{row.sys_created_on.display_value.substr(0, 16)}</Text>
         <Text style={styles.message} >{row.message.display_value}</Text>
       </View>);
+  
   }
 
  
@@ -140,8 +157,8 @@ export class MainScreen extends Component {
    }
 
   _renderFooter() {
-    //if (OS === 'ios') {return null;}
-    if (!this.props.stateGetter('loadMore')) {return null;}
+    const {loadMore} = this.props.appState;
+    if (!loadMore) { return null }
     return (
       <ActivityIndicator 
         color={spinnerColor}
@@ -152,19 +169,17 @@ export class MainScreen extends Component {
   }
 
   render() {
-    console.log('render MAinScreen');
-    
-    if (!this.props.stateGetter('loggedIn')) { return null };
+    console.log('render MAinScreen'); 
+    const {messages,username,loading,loggedIn} = this.props.appState;
+    if (!loggedIn) { return null }
 
-    const messages = LISTVIEW().cloneWithRows(this.props.stateGetter('messages'));
-    // const filteredMessages = (this.state.filteredMessages) ? this.state.filteredMessages : messages;
-    
-    const messageList = (this.props.stateGetter('loading')) 
+    const dsMessages = LISTVIEW().cloneWithRows(messages);
+    const messageList = (loading) 
                         ? <ActivityIndicator animating={true} style={styles.aLoading} size='large' />
                         : <ListView 
                         contentContainerStyle={this.state.stylesView}
                         enableEmptySections={true} 
-                        dataSource={messages} 
+                        dataSource={dsMessages} 
                         refreshControl={<RefreshControl refreshing={false} onRefresh={this._onRefresh.bind(this)} />}
                         renderRow={this._renderRow.bind(this)} 
                         renderFooter={() => this._renderFooter()}
@@ -180,7 +195,7 @@ export class MainScreen extends Component {
             modalClose = {(saved)=>this._addCommentClose(saved)}
             modalOpen = {()=>this._addCommentOpen()}/>
         </Modal>
-        <UI.Header text={'Logged In As '+this.props.stateGetter('username')} onClose={() => this.props.onClose()} />
+        <UI.Header text={'Logged In As '+username} onClose={() => this.props.onClose()} />
         {messageList}
       </View>  
     )

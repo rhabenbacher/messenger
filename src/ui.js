@@ -14,7 +14,8 @@ const INPUT_DISABLED = 'rgba(0,0,0,0.38)';
 const BUTTON_DISABLED = 'rgba(0,0,0,0.12)';
 const BUTTONTEXT_DISABLED = 'rgba(0,0,0,0.26)';
 const ICONS = {'close':require('./../img/ic_close_white_48pt.png'),
-              'add':require('./../img/add.png')};
+              'add':require('./../img/add.png'),
+              'camera':require('./../img/camera.png')};
 const {OS} = Platform;              
 
 export const dynFontSize = () => {
@@ -71,22 +72,22 @@ export const Header = (props) => {
 export const InputWithLabel = (props) => {
   let inputProps = props.input;
   let labelProps = props.label;
-  let viewStyle = (OS === 'android') ? {marginHorizontal:20}:{borderBottomColor:'grey',borderBottomWidth:1,marginHorizontal:20,paddingTop:16,marginBottom:8};
+  let viewStyle = (OS === 'android') ? {marginHorizontal:20,marginTop:16}:{borderBottomColor:'grey',borderBottomWidth:1,marginHorizontal:20,paddingTop:16,marginBottom:8};
   let inputStyle = !inputProps.editable ? [styles.input,styles.disabled] : [styles.input];
-  if (!inputProps.editable) styles.input;
-  
+  //if (!inputProps.editable) styles.input;
+   
   if  (OS === 'ios'){
   return (
      <View style= {[viewStyle,props.viewStyle]}>
-          <Text style={styles.label} {...labelProps}>{props.name}</Text>          
+          {(props.noLabel) ? null : <Text style={styles.label} {...labelProps}>{props.name}</Text>}        
           <TextInput style={inputStyle} {...inputProps}/>
       </View>
   );}
   else {
      inputStyle = {};
      return (
-          <View style={{marginHorizontal:20,marginTop:16}}>
-          <Text style={styles.label} {...labelProps}>{props.name}</Text>          
+          <View style={[viewStyle,props.viewStyle]}>
+          {(props.noLabel) ? null : <Text style={styles.label} {...labelProps}>{props.name}</Text> }         
           <TextInput style={inputStyle} {...inputProps}/> 
           </View>);
   }
