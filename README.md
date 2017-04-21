@@ -1,4 +1,5 @@
-# messenger
+# messenger v0.2
+### add a photo during message creation
 ## ServiceNow feed messages in a native mobile app
 
 #### This app is built with react native.
