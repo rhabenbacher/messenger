@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/rhabenbacher/.android/build-cache/c4c995e3a9cbeeaca16ae82fea57f9b201384f16/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="28964a93b5eafbe660a5b51e5964d2e66aa45395">
+        <dex dex="/Users/rhabenbacher/JSDev/reactNative/appmessenger/android/app/build/intermediates/pre-dexed/debug/classes_dfede99f42997a8535b4a6d054901fa6d43f0854.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/rhabenbacher/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-urlconnection/3.4.1/63994437f62bc861bc20c605d12962f7246116d1/okhttp-urlconnection-3.4.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="63994437f62bc861bc20c605d12962f7246116d1">
+        <dex dex="/Users/rhabenbacher/JSDev/reactNative/appmessenger/android/app/build/intermediates/pre-dexed/debug/okhttp-urlconnection-3.4.1_b77a7eda045ea4a239d1d4c88b70fbe3bb36cef0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/rhabenbacher/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-ws/3.4.1/8ace66ef7002d98f633377c9e67daeeb196d8c3b/okhttp-ws-3.4.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8ace66ef7002d98f633377c9e67daeeb196d8c3b">
+        <dex dex="/Users/rhabenbacher/JSDev/reactNative/appmessenger/android/app/build/intermediates/pre-dexed/debug/okhttp-ws-3.4.1_da37a652b0a57d0eb115f1e511b19b5a55d9132f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/rhabenbacher/.android/build-cache/5d865958837fcf2bb6bd4e2c9c446f18e0a6ff0f/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
+        <dex dex="/Users/rhabenbacher/JSDev/reactNative/appmessenger/android/app/build/intermediates/pre-dexed/debug/classes_d96b0d3165dead4bd59977d2961ea22a16bbfd3c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/rhabenbacher/.android/build-cache/f3b1c929a747845d2ab1667c29d9fe30452e6dcf/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d9c4402c3057225d80cbbbec52154e7a25b0ebdf">
+        <dex dex="/Users/rhabenbacher/JSDev/reactNative/appmessenger/android/app/build/intermediates/pre-dexed/debug/classes_42cffecd08b7ff3c1c1890b4edc770c952c3a9cb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/rhabenbacher/.android/build-cache/974bbff4ac0664acb2b6ff5657b553d2476a7d7c/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="050f688115ea65a0292d8483a6ffe6bcdab1e2ef">
+        <dex dex="/Users/rhabenbacher/JSDev/reactNative/appmessenger/android/app/build/intermediates/pre-dexed/debug/classes_7ef2202356dac63b4834fb9aa870092e93018200.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/rhabenbacher/.android/build-cache/25da1462d383dbc79bdda697bb05d56745685291/output/jars/libs/internal_impl-23.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="/Users/rhabenbacher/JSDev/reactNative/appmessenger/android/app/build/intermediates/pre-dexed/debug/internal_impl-23.4.0_f0d073eafd156a968ecbe3621859bc73d18ac838.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/rhabenbacher/.android/build-cache/478fa14b0a8bea826ddf1389e7e57e8638c25229/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5a61f17cd72e20aa4323cbf5f909b7c609619275">
+        <dex dex="/Users/rhabenbacher/JSDev/reactNative/appmessenger/android/app/build/intermediates/pre-dexed/debug/classes_6e6e066fa74ae198dcf531e9c15ed4bc294e9728.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/rhabenbacher/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-ws/3.4.1/8ace66ef7002d98f633377c9e67daeeb196d8c3b/okhttp-ws-3.4.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="8ace66ef7002d98f633377c9e67daeeb196d8c3b">
+        <dex dex="/Users/rhabenbacher/JSDev/reactNative/appmessenger/android/app/build/intermediates/pre-dexed/debug/okhttp-ws-3.4.1_da37a652b0a57d0eb115f1e511b19b5a55d9132f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/rhabenbacher/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.9.0/f824591a0016efbaeddb8300bee54832a1398cfa/okio-1.9.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f824591a0016efbaeddb8300bee54832a1398cfa">
+        <dex dex="/Users/rhabenbacher/JSDev/reactNative/appmessenger/android/app/build/intermediates/pre-dexed/debug/okio-1.9.0_92bd3a23bfec8a8418399f63987c7643c42dae09.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/rhabenbacher/.android/build-cache/27d3cc7b9abbd81208929f5437eb99eb30bd6516/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8f615bca00639150c9eb6175d4b5471193f70794">
+        <dex dex="/Users/rhabenbacher/JSDev/reactNative/appmessenger/android/app/build/intermediates/pre-dexed/debug/classes_2cff7ee0be8b10e376fc265c3f76638245c8cd81.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/rhabenbacher/.android/build-cache/f49f21e11421b0592acbbe610ad7901aa72a04ae/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ba9b39366b723ccff6359d1117332968e98a4aca">
+        <dex dex="/Users/rhabenbacher/JSDev/reactNative/appmessenger/android/app/build/intermediates/pre-dexed/debug/classes_4aacd216b00effb3db06f68bd43ed93a6c4d58e7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/rhabenbacher/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.4.1/c7c4f9e35c2fd5900da24f9872e3971801f08ce0/okhttp-3.4.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c7c4f9e35c2fd5900da24f9872e3971801f08ce0">
+        <dex dex="/Users/rhabenbacher/JSDev/reactNative/appmessenger/android/app/build/intermediates/pre-dexed/debug/okhttp-3.4.1_64eaaacf25a932eb714e77eaccfc3433e7afa06d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/rhabenbacher/.android/build-cache/25da1462d383dbc79bdda697bb05d56745685291/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="/Users/rhabenbacher/JSDev/reactNative/appmessenger/android/app/build/intermediates/pre-dexed/debug/classes_cfe604eea14f8f8ed63fa028a6f99e0328454c21.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/rhabenbacher/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="/Users/rhabenbacher/JSDev/reactNative/appmessenger/android/app/build/intermediates/pre-dexed/debug/bolts-tasks-1.4.0_8d18c7411197b43d2d1aed23e3e7006843013aad.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/rhabenbacher/.android/build-cache/097592fa1d2d1118cbb5be6f8ad1a38839c3a84e/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="/Users/rhabenbacher/JSDev/reactNative/appmessenger/android/app/build/intermediates/pre-dexed/debug/classes_9b0c5845558f97a27d5d9820afc5b4351f60941c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/rhabenbacher/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.4.0/support-annotations-23.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="/Users/rhabenbacher/JSDev/reactNative/appmessenger/android/app/build/intermediates/pre-dexed/debug/support-annotations-23.4.0_a1e7bce07e07dc48c4205499b891246dd30ced7a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/rhabenbacher/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.9.0/f824591a0016efbaeddb8300bee54832a1398cfa/okio-1.9.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f824591a0016efbaeddb8300bee54832a1398cfa">
+        <dex dex="/Users/rhabenbacher/JSDev/reactNative/appmessenger/android/app/build/intermediates/pre-dexed/debug/okio-1.9.0_92bd3a23bfec8a8418399f63987c7643c42dae09.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/rhabenbacher/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="/Users/rhabenbacher/JSDev/reactNative/appmessenger/android/app/build/intermediates/pre-dexed/debug/javax.inject-1_b82d9bdfaee8ce518cb05534e1eeca1dafedbda0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/rhabenbacher/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.4.1/c7c4f9e35c2fd5900da24f9872e3971801f08ce0/okhttp-3.4.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c7c4f9e35c2fd5900da24f9872e3971801f08ce0">
+        <dex dex="/Users/rhabenbacher/JSDev/reactNative/appmessenger/android/app/build/intermediates/pre-dexed/debug/okhttp-3.4.1_64eaaacf25a932eb714e77eaccfc3433e7afa06d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/rhabenbacher/JSDev/reactNative/appmessenger/node_modules/react-native-image-resizer/android/build/intermediates/bundles/default/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f48ef59cd647e1132a908878bad35f74ca9d8696">
+        <dex dex="/Users/rhabenbacher/JSDev/reactNative/appmessenger/android/app/build/intermediates/pre-dexed/debug/classes_77cc6d8c2bc954b8c2e7a453225bcac28f3b34da.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/rhabenbacher/.gradle/caches/modules-2/files-2.1/com.facebook.fbui.textlayoutbuilder/staticlayout-proxy/1.0/f162442a19fff13995fbd51ba414d9ee05579080/staticlayout-proxy-1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f162442a19fff13995fbd51ba414d9ee05579080">
+        <dex dex="/Users/rhabenbacher/JSDev/reactNative/appmessenger/android/app/build/intermediates/pre-dexed/debug/staticlayout-proxy-1.0_fd08392926346cf2a33627d92504bdf93f0a51d2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/rhabenbacher/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.0/5871fb60dc68d67da54a663c3fd636a10a532948/jsr305-3.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
+        <dex dex="/Users/rhabenbacher/JSDev/reactNative/appmessenger/android/app/build/intermediates/pre-dexed/debug/jsr305-3.0.0_eb73a0890b26b8632f8625af819f4d091c595267.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/rhabenbacher/.android/build-cache/a1fe7b65d010b6dc9986a0e7aa73f5cc5068701a/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f90b593491e4044903f0bbf68dc3fa2790b151b9">
+        <dex dex="/Users/rhabenbacher/JSDev/reactNative/appmessenger/android/app/build/intermediates/pre-dexed/debug/classes_3bcbb5d26648303e05e32b73ecdcbb387dabb63c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/rhabenbacher/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.4.0/support-annotations-23.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="/Users/rhabenbacher/JSDev/reactNative/appmessenger/android/app/build/intermediates/pre-dexed/debug/support-annotations-23.4.0_a1e7bce07e07dc48c4205499b891246dd30ced7a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/rhabenbacher/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="/Users/rhabenbacher/JSDev/reactNative/appmessenger/android/app/build/intermediates/pre-dexed/debug/bolts-tasks-1.4.0_8d18c7411197b43d2d1aed23e3e7006843013aad.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/rhabenbacher/.android/build-cache/7955610fb79857ca8ae4dcdb276e789dd3cd4263/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="cf836a435a496eb22ff2aa69aa1e619462549f81">
+        <dex dex="/Users/rhabenbacher/JSDev/reactNative/appmessenger/android/app/build/intermediates/pre-dexed/debug/classes_8091bb2e67323e48e3e06eb400c03151a9e87bae.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/rhabenbacher/.android/build-cache/c4c995e3a9cbeeaca16ae82fea57f9b201384f16/output/jars/libs/infer-annotations-1.5.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="dcac634e137395f79693ec760f081a86eb2bd84e">
+        <dex dex="/Users/rhabenbacher/JSDev/reactNative/appmessenger/android/app/build/intermediates/pre-dexed/debug/infer-annotations-1.5_5f39ec34e3a8e7b24c3bb0e8e726c652b1f37d32.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/rhabenbacher/.gradle/caches/modules-2/files-2.1/com.facebook.fbui.textlayoutbuilder/staticlayout-proxy/1.0/f162442a19fff13995fbd51ba414d9ee05579080/staticlayout-proxy-1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f162442a19fff13995fbd51ba414d9ee05579080">
+        <dex dex="/Users/rhabenbacher/JSDev/reactNative/appmessenger/android/app/build/intermediates/pre-dexed/debug/staticlayout-proxy-1.0_fd08392926346cf2a33627d92504bdf93f0a51d2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/rhabenbacher/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-urlconnection/3.4.1/63994437f62bc861bc20c605d12962f7246116d1/okhttp-urlconnection-3.4.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="63994437f62bc861bc20c605d12962f7246116d1">
+        <dex dex="/Users/rhabenbacher/JSDev/reactNative/appmessenger/android/app/build/intermediates/pre-dexed/debug/okhttp-urlconnection-3.4.1_b77a7eda045ea4a239d1d4c88b70fbe3bb36cef0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/rhabenbacher/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="/Users/rhabenbacher/JSDev/reactNative/appmessenger/android/app/build/intermediates/pre-dexed/debug/javax.inject-1_b82d9bdfaee8ce518cb05534e1eeca1dafedbda0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/rhabenbacher/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.0/5871fb60dc68d67da54a663c3fd636a10a532948/jsr305-3.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
+        <dex dex="/Users/rhabenbacher/JSDev/reactNative/appmessenger/android/app/build/intermediates/pre-dexed/debug/jsr305-3.0.0_eb73a0890b26b8632f8625af819f4d091c595267.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/rhabenbacher/.android/build-cache/2435764fd569405450e48722e3b291ac2b245c72/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2668e49e4e31c7d451b76a36009b902bf44e0d70">
+        <dex dex="/Users/rhabenbacher/JSDev/reactNative/appmessenger/android/app/build/intermediates/pre-dexed/debug/classes_121d65db4ce02ecf39bd6a75ad8af867c346f898.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/rhabenbacher/JSDev/reactNative/appmessenger/node_modules/react-native-image-picker/android/build/intermediates/bundles/default/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1fbf66cc54d5d6cbd6cdda4f4cfaee5c615499c2">
+        <dex dex="/Users/rhabenbacher/JSDev/reactNative/appmessenger/android/app/build/intermediates/pre-dexed/debug/classes_821752609edd0553cb15d254c40f3426f54ce3e6.jar" />
+    </item>
+
+</items>

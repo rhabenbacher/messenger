@@ -48,13 +48,13 @@
     {
       "size" : "60x60",
       "idiom" : "iphone",
-      "filename" : "MessiPhone@2x.png",
+      "filename" : "Iphone App Icon 2x@2x.png",
       "scale" : "2x"
     },
     {
       "size" : "60x60",
       "idiom" : "iphone",
-      "filename" : "MessiPhone@3x.png",
+      "filename" : "Iphone App Icon 2x@3x.png",
       "scale" : "3x"
     },
     {
@@ -110,19 +110,19 @@
     {
       "size" : "76x76",
       "idiom" : "ipad",
-      "filename" : "MessiPad.png",
+      "filename" : "Ipad App Icon 1x.png",
       "scale" : "1x"
     },
     {
       "size" : "76x76",
       "idiom" : "ipad",
-      "filename" : "MessiPad@2x.png",
+      "filename" : "Ipad App Icon 1x@2x.png",
       "scale" : "2x"
     },
     {
       "size" : "83.5x83.5",
       "idiom" : "ipad",
-      "filename" : "MessiPadPro@2x.png",
+      "filename" : "Ipad Pro 2x@2x.png",
       "scale" : "2x"
     }
   ],
